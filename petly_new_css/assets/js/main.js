@@ -1,7 +1,8 @@
 (function () {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const body = document.body;
-  const lang = body.dataset.lang || 'en';
+  const htmlLang = document.documentElement.lang || body.dataset.lang || 'en';
+  const lang = htmlLang.toLowerCase().startsWith('ar') ? 'ar' : 'en';
   const page = body.dataset.page || 'home';
   const activePage = page === 'blog-post' ? 'blog' : page;
   const dir = lang === 'ar' ? 'rtl' : 'ltr';
@@ -331,16 +332,21 @@
     counters.forEach((counter) => observer.observe(counter));
   }
 
-  function initSwipers() {
+  function initSwipers(scope = document) {
     if (!window.Swiper) return;
-    document.querySelectorAll('.testimonials-swiper').forEach((element) => {
+    scope.querySelectorAll('.testimonials-swiper').forEach((element) => {
+      if (element.swiper) return;
       const container = element.closest('.testimonials-shell');
       new window.Swiper(element, {
         slidesPerView: 1,
         spaceBetween: 16,
         speed: 700,
-        loop: true,
+        loop: element.dataset.loop === 'true',
         autoplay: reduceMotion ? false : { delay: 4500 },
+        breakpoints: {
+          768: { slidesPerView: 2, spaceBetween: 18 },
+          1024: { slidesPerView: 3, spaceBetween: 20 }
+        },
         navigation: {
           nextEl: container.querySelector('.swiper-next'),
           prevEl: container.querySelector('.swiper-prev')
@@ -350,6 +356,164 @@
           clickable: true
         }
       });
+    });
+  }
+
+  function renderGoogleReviews() {
+    if (page !== 'home') return;
+    const mounts = document.querySelectorAll('.testimonials-shell');
+    if (!mounts.length) return;
+
+    const copy = {
+      en: {
+        eyebrow: 'Verified Google Reviews',
+        heading: 'Trusted by Pet Owners Across Amman',
+        verified: 'Verified Google Review',
+        basedOn: 'Based on {count} reviews shown here',
+        cta: 'Read all reviews on Google',
+        readMore: 'Read more',
+        readLess: 'Read less',
+        unavailable: 'Reviews are temporarily unavailable.'
+      },
+      ar: {
+        eyebrow: 'تقييمات موثّقة من Google',
+        heading: 'موثوقون من قبل أصحاب الحيوانات الأليفة في عمّان',
+        verified: 'تقييم موثّق من Google',
+        basedOn: 'استناداً إلى {count} تقييمات معروضة هنا',
+        cta: 'اقرأ جميع التقييمات على Google',
+        readMore: 'اقرأ المزيد',
+        readLess: 'عرض أقل',
+        unavailable: 'التقييمات غير متاحة مؤقتاً.'
+      }
+    }[lang];
+
+    const palette = ['#28BCA8', '#08A7AB', '#F6C453', '#FF8E6E', '#5976FF', '#7AC17D', '#DA6FB4'];
+    const formatter = new Intl.DateTimeFormat(lang === 'ar' ? 'ar-JO' : 'en-US', { year: 'numeric', month: 'long' });
+
+    const escapeHtml = (value) => value
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+
+    const initialsFor = (name) => {
+      const words = name.trim().split(/\s+/).filter(Boolean);
+      return words.slice(0, 2).map((word) => word[0]?.toUpperCase() || '').join('') || '?';
+    };
+
+    const colorFor = (name) => {
+      const code = (name.trim()[0] || 'A').toUpperCase().charCodeAt(0);
+      return palette[code % palette.length];
+    };
+
+    const googleLogo = `
+      <svg viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+        <path fill="#EA4335" d="M9 7.364v3.455h4.879c-.197 1.11-1.301 3.253-4.879 3.253-2.938 0-5.333-2.435-5.333-5.436S6.062 3.2 9 3.2c1.674 0 2.795.714 3.436 1.33l2.348-2.267C13.243.832 11.333 0 9 0 4.03 0 0 4.03 0 9s4.03 9 9 9c5.182 0 8.618-3.642 8.618-8.77 0-.59-.064-1.04-.141-1.486H9z"/>
+        <path fill="#FBBC05" d="M1.036 5.273l2.84 2.083C4.647 5.87 6.648 4.8 9 4.8c1.674 0 2.795.714 3.436 1.33l2.348-2.267C13.243 2.032 11.333 1.2 9 1.2c-3.456 0-6.448 1.976-7.964 4.873z"/>
+        <path fill="#34A853" d="M9 18c2.26 0 4.156-.742 5.541-2.013l-2.56-2.099c-.688.48-1.622.816-2.981.816-3.564 0-6.595-2.406-7.677-5.644l-2.924 2.253C.899 14.16 4.628 18 9 18z"/>
+        <path fill="#4285F4" d="M17.618 9.23c0-.59-.064-1.04-.141-1.486H9v3.455h4.879c-.235 1.292-.996 2.385-2.016 3.1l2.56 2.099C16.585 14.405 17.618 12.08 17.618 9.23z"/>
+      </svg>
+    `;
+
+    const renderStars = (rating) => Array.from({ length: rating }, () => '<i class="bi bi-star-fill"></i>').join('');
+
+    const bindReviewToggles = (mount) => {
+      mount.querySelectorAll('[data-review-toggle]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const card = button.closest('.review-card');
+          const isExpanded = card.classList.toggle('is-expanded');
+          button.textContent = isExpanded ? copy.readLess : copy.readMore;
+        });
+      });
+    };
+
+    const animateReviewMount = (mount) => {
+      if (!window.gsap || !window.ScrollTrigger || reduceMotion) return;
+      const cards = mount.querySelectorAll('.review-card');
+      const aggregate = mount.querySelector('.reviews-aggregate');
+      const timeline = window.gsap.timeline({
+        scrollTrigger: {
+          trigger: mount,
+          start: 'top 80%'
+        }
+      });
+
+      timeline
+        .fromTo(mount.querySelector('.reviews-heading-block'), { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
+        .fromTo(cards, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out' }, '-=0.45')
+        .fromTo(aggregate, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.72, ease: 'power3.out' }, '-=0.28');
+    };
+
+    mounts.forEach(async (mount) => {
+      const path = mount.dataset.reviewsPath || (lang === 'ar' ? '../assets/data/reviews.json' : 'assets/data/reviews.json');
+      const url = mount.dataset.reviewsUrl || 'https://www.google.com/maps/place/PETLY+Veterinary+Hospital/@32.0508877,35.8839519,17.73z/data=!4m8!3m7!1s0x151c9ffebb2ce2b1:0x4891153ea7e06faa!8m2!3d32.0510737!4d35.8827585!9m1!1b1!16s%2Fg%2F11hyhwzc6b';
+      mount.classList.add('google-reviews-shell');
+      try {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error(`Failed to load ${path}`);
+        const reviews = await response.json();
+        const count = reviews.length;
+        const average = (reviews.reduce((sum, review) => sum + Number(review.rating || 0), 0) / count).toFixed(1);
+
+        mount.innerHTML = `
+          <div class="reviews-heading-block">
+            <div class="section-heading mb-4">
+              <p class="eyebrow">${copy.eyebrow}</p>
+              <h2 class="text-white">${copy.heading}</h2>
+            </div>
+          </div>
+          <div class="swiper testimonials-swiper" data-loop="${count > 3}">
+            <div class="swiper-wrapper">
+              ${reviews.map((review) => {
+                const reviewText = lang === 'ar' ? review.text_ar : review.text_en;
+                const needsToggle = reviewText.length > 280;
+                return `
+                  <div class="swiper-slide">
+                    <article class="review-card">
+                      <div class="review-card-head">
+                        <div class="review-avatar" style="--avatar-color: ${colorFor(review.author)}">${escapeHtml(initialsFor(review.author))}</div>
+                        <div>
+                          <strong>${escapeHtml(review.author)}</strong>
+                          <div class="review-date">${formatter.format(new Date(review.date))}</div>
+                        </div>
+                      </div>
+                      <div class="testimonial-rating review-stars">${renderStars(review.rating)}</div>
+                      <div class="review-copy-wrap">
+                        <p class="review-copy${needsToggle ? ' is-collapsible' : ''}">${escapeHtml(reviewText)}</p>
+                        ${needsToggle ? `<button class="review-toggle" type="button" data-review-toggle>${copy.readMore}</button>` : ''}
+                      </div>
+                      <div class="review-verified">
+                        <span class="review-verified-badge"><i class="bi bi-shield-check"></i>${copy.verified}</span>
+                        <span class="review-google-mark">${googleLogo}<span>Google</span></span>
+                      </div>
+                    </article>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+          <div class="swiper-controls">
+            <div class="swiper-nav">
+              <button class="swiper-button-petly swiper-prev" type="button" aria-label="${lang === 'ar' ? 'السابق' : 'Previous review'}"><i class="bi bi-arrow-${lang === 'ar' ? 'right' : 'left'}"></i></button>
+              <button class="swiper-button-petly swiper-next" type="button" aria-label="${lang === 'ar' ? 'التالي' : 'Next review'}"><i class="bi bi-arrow-${lang === 'ar' ? 'left' : 'right'}"></i></button>
+            </div>
+            <div class="swiper-pagination-petly"></div>
+          </div>
+          <div class="reviews-aggregate">
+            <strong>${average} / 5</strong>
+            <p>${copy.basedOn.replace('{count}', count)}</p>
+            <a class="btn-secondary-petly google-review-link" href="${url}" target="_blank" rel="noopener noreferrer">${copy.cta}</a>
+          </div>
+        `;
+
+        bindReviewToggles(mount);
+        initSwipers(mount);
+        animateReviewMount(mount);
+      } catch (error) {
+        mount.innerHTML = `<p class="text-white mb-0">${copy.unavailable}</p>`;
+        console.error(error);
+      }
     });
   }
 
@@ -510,4 +674,5 @@
   initDirectionAwareIcons();
   initParallax();
   initLottie();
+  renderGoogleReviews();
 })();

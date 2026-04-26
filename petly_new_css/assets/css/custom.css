@@ -64,7 +64,7 @@ body {
   color: var(--color-ink);
   background: var(--gradient-hero);
   line-height: 1.72;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body.page-transition-ready {
@@ -1218,6 +1218,21 @@ body[data-lang="ar"] .breadcrumb-petly li + li::before {
   box-shadow: var(--shadow-strong);
 }
 
+.google-reviews-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.google-reviews-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 8% 18%, rgba(246, 196, 83, 0.16), transparent 18rem),
+    radial-gradient(circle at 84% 12%, rgba(40, 188, 168, 0.16), transparent 20rem);
+  pointer-events: none;
+}
+
 .testimonial-card {
   display: grid;
   grid-template-columns: 170px 1fr;
@@ -1249,6 +1264,154 @@ body[data-lang="ar"] .breadcrumb-petly li + li::before {
 .testimonial-meta strong,
 .testimonial-meta span {
   display: block;
+}
+
+.testimonials-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonials-swiper {
+  overflow: hidden;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto;
+}
+
+.review-card {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  min-height: 100%;
+  padding: 1.35rem;
+  border-radius: 1.8rem;
+  background:
+    linear-gradient(#13302c, #13302c) padding-box,
+    linear-gradient(135deg, rgba(246, 196, 83, 0.82), rgba(8, 167, 171, 0.72)) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.22);
+}
+
+.review-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.review-avatar {
+  width: 3.4rem;
+  height: 3.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--avatar-color);
+  color: var(--color-white);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.review-card-head strong,
+.review-date,
+.review-copy,
+.review-verified-badge,
+.review-google-mark span,
+.reviews-aggregate p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.review-date {
+  font-size: 0.92rem;
+  opacity: 0.76;
+}
+
+.review-stars {
+  margin-bottom: 0;
+}
+
+.review-copy-wrap {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.review-copy {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.review-copy.is-collapsible {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.review-card.is-expanded .review-copy.is-collapsible {
+  display: block;
+}
+
+.review-toggle {
+  width: fit-content;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.review-verified {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: auto;
+  padding-top: 0.25rem;
+}
+
+.review-verified-badge,
+.review-google-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.84rem;
+}
+
+.review-verified-badge i {
+  color: var(--color-accent);
+}
+
+.review-google-mark svg {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+}
+
+.reviews-aggregate {
+  display: grid;
+  justify-items: center;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.reviews-aggregate strong {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1;
+  color: var(--color-white);
+}
+
+.google-review-link {
+  min-width: min(100%, 18rem);
 }
 
 .swiper-controls {
@@ -2072,6 +2235,11 @@ body[data-lang="ar"] .faq-trigger {
     margin-inline: auto;
   }
 
+  .review-verified {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .founder-portrait-frame img {
     min-height: 24rem;
   }
@@ -2245,6 +2413,15 @@ body[data-lang="ar"] .faq-trigger {
   .testimonial-card img {
     width: 112px;
     height: 112px;
+  }
+
+  .review-card {
+    padding: 1.1rem;
+  }
+
+  .review-avatar {
+    width: 3rem;
+    height: 3rem;
   }
 
   .cta-band {
