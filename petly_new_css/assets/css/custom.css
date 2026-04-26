@@ -1171,6 +1171,45 @@ body[data-lang="ar"] .breadcrumb-petly li + li::before {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.team-card-featured {
+  grid-column: span 2;
+  min-height: 420px;
+  border: 1px solid rgba(246, 196, 83, 0.48);
+  box-shadow: 0 28px 70px rgba(23, 49, 45, 0.16);
+}
+
+.team-card-featured::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(246, 196, 83, 0.95), rgba(8, 167, 171, 0.72));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.team-card-featured .team-content {
+  padding: 1.45rem;
+}
+
+.team-feature-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.8rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  color: var(--color-white);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .testimonials-shell {
   border-radius: var(--radius-xl);
   background: linear-gradient(135deg, #17312d, #0f2925);
@@ -1987,6 +2026,10 @@ body[data-lang="ar"] .faq-trigger {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .team-card-featured {
+    grid-column: span 2;
+  }
+
   .gallery-item.wide,
   .gallery-item.tall,
   .gallery-item.square {
@@ -2161,6 +2204,11 @@ body[data-lang="ar"] .faq-trigger {
 
   .timeline-item {
     grid-template-columns: 1fr;
+  }
+
+  .team-card-featured {
+    grid-column: auto;
+    min-height: 380px;
   }
 
   .founder-spotlight {
