@@ -7,6 +7,14 @@
   const activePage = page === 'blog-post' ? 'blog' : page;
   const dir = lang === 'ar' ? 'rtl' : 'ltr';
   document.documentElement.dir = dir;
+  const externalScripts = new Map();
+  const CDN = {
+    gsap: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js',
+    scrollTrigger: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js',
+    swiper: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
+    glightbox: 'https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js',
+    lottie: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js'
+  };
 
   const shellContent = {
     en: {
@@ -88,6 +96,48 @@
   };
 
   const shell = shellContent[lang];
+
+  function scheduleDeferredTask(task) {
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(task, { timeout: 1600 });
+    } else {
+      window.setTimeout(task, 250);
+    }
+  }
+
+  function loadExternalScript(src, check) {
+    if (typeof check === 'function' && check()) return Promise.resolve();
+    if (externalScripts.has(src)) return externalScripts.get(src);
+
+    const promise = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      script.onload = () => resolve();
+      script.onerror = () => reject(new Error(`Failed to load ${src}`));
+      document.head.appendChild(script);
+    });
+
+    externalScripts.set(src, promise);
+    return promise;
+  }
+
+  async function ensureGsap() {
+    await loadExternalScript(CDN.gsap, () => !!window.gsap);
+    await loadExternalScript(CDN.scrollTrigger, () => !!window.ScrollTrigger);
+  }
+
+  function ensureSwiper() {
+    return loadExternalScript(CDN.swiper, () => !!window.Swiper);
+  }
+
+  function ensureLottie() {
+    return loadExternalScript(CDN.lottie, () => !!window.lottie);
+  }
+
+  function ensureLightbox() {
+    return loadExternalScript(CDN.glightbox, () => !!window.GLightbox);
+  }
 
   function injectShell() {
     const headerTarget = document.querySelector('[data-site-header]');
@@ -359,7 +409,7 @@
     });
   }
 
-  function renderGoogleReviews() {
+  async function renderGoogleReviews() {
     if (page !== 'home') return;
     const mounts = document.querySelectorAll('.testimonials-shell');
     if (!mounts.length) return;
@@ -507,6 +557,7 @@
           </div>
         `;
 
+        await ensureSwiper();
         bindReviewToggles(mount);
         initSwipers(mount);
         animateReviewMount(mount);
@@ -658,21 +709,63 @@
     };
   }
 
+  function scheduleEnhancements() {
+    const needsGsap = !reduceMotion && !!document.querySelector('.hero-shell, [data-reveal], .founder-spotlight, [data-count]');
+    const needsLottie = !reduceMotion && !!document.querySelector('[data-lottie="petly"]');
+    const needsLightbox = !!document.querySelector('.glightbox');
+
+    if (needsGsap) {
+      scheduleDeferredTask(async () => {
+        try {
+          await ensureGsap();
+        } catch (error) {
+          console.error(error);
+        } finally {
+          initHeroAnimations();
+          initRevealAnimations();
+          initFounderSpotlights();
+          initCounters();
+        }
+      });
+    } else {
+      initHeroAnimations();
+      initRevealAnimations();
+      initFounderSpotlights();
+      initCounters();
+    }
+
+    if (needsLottie) {
+      scheduleDeferredTask(async () => {
+        try {
+          await ensureLottie();
+          initLottie();
+        } catch (error) {
+          console.error(error);
+        }
+      });
+    }
+
+    if (needsLightbox) {
+      scheduleDeferredTask(async () => {
+        try {
+          await ensureLightbox();
+          initLightbox();
+        } catch (error) {
+          console.error(error);
+        }
+      });
+    }
+  }
+
   injectShell();
   initPageTransition();
   initCommonShell();
-  initHeroAnimations();
-  initRevealAnimations();
-  initFounderSpotlights();
-  initCounters();
-  initSwipers();
   initAccordions();
   initFilters();
-  initLightbox();
   initContactForms();
   initFieldStates();
   initDirectionAwareIcons();
   initParallax();
-  initLottie();
+  scheduleEnhancements();
   renderGoogleReviews();
 })();
