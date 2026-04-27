@@ -1,0 +1,1326 @@
+{
+  "jawad": {
+    "docHTML": "<div data-doctor-detail-root=\"\" class=\"section-padding\">\n      <div class=\"doctor-shell\" data-doctor-id=\"jawad-al-ajlouni\">\n        <section class=\"doctor-hero\">\n          <div class=\"petly-container\">\n            <div class=\"doctor-hero-grid\">\n              <div class=\"doctor-media-shell\" data-reveal=\"left\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;\">\n                <div class=\"doctor-media-orbit\"></div>\n                <div class=\"doctor-portrait-frame\" data-avatar-root=\"\">\n                  <img src=\"assets/images/team/jawad.jpg\" alt=\"Jawad\" loading=\"lazy\"><span class=\"avatar-fallback portrait-fallback\" style=\"background:linear-gradient(135deg, hsl(67 66% 44%), hsl(101 72% 56%))\">J</span>\n                  <div class=\"doctor-media-chip\">\n                    <strong>Petly Team</strong>\n                    <span>Founder &amp; CEO</span>\n                  </div>\n                </div>\n              </div>\n              <div class=\"card-petly doctor-copy-card\" data-reveal=\"right\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;\">\n                <p class=\"eyebrow\">Founder &amp; CEO</p>\n                <h1>Jawad</h1>\n                <p class=\"doctor-intro\">Leads Petly's vision with a strong focus on trust, brand experience, and building a clinic families genuinely feel good about.</p>\n                \n                \n                <div class=\"doctor-actions share-row\">\n                  <a class=\"btn-secondary-petly\" href=\"team.html\"><i class=\"bi bi-arrow-left\"></i> Back to team</a>\n                  <button class=\"btn-primary-petly\" type=\"button\" data-share-profile=\"\"><i class=\"bi bi-share\"></i> Share profile</button>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        \n        \n\n        \n          <section class=\"section-padding-sm\">\n            <div class=\"petly-container\">\n              <div class=\"section-heading\" data-reveal=\"left\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(-44px, 0px); opacity: 0;\">\n                <p class=\"eyebrow\">Other Team Members</p>\n                <h2>Meet the Rest of Our Team</h2>\n              </div>\n              <div class=\"related-team-grid\">\n                \n      <a class=\"card-petly mini-team-card\" href=\"doctor.html?id=dr-yara\" data-reveal=\"scale\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 16px) scale(0.95, 0.95); opacity: 0;\">\n        <div class=\"mini-team-photo\" data-avatar-root=\"\">\n          <img src=\"assets/images/team/yara.jpg\" alt=\"Dr. Yara\" loading=\"lazy\"><span class=\"avatar-fallback mini-team-fallback\" style=\"background:linear-gradient(135deg, hsl(303 66% 44%), hsl(337 72% 56%))\">Y</span>\n        </div>\n        <div class=\"team-meta\">\n          <span class=\"tag-petly\">Veterinary Doctor</span>\n          <h4 class=\"mt-3\">Dr. Yara</h4>\n          <p>Combines compassionate care with practical treatment planning so families leave with confidence and clarity.</p>\n        </div>\n      </a>\n    \n      <a class=\"card-petly mini-team-card\" href=\"doctor.html?id=dr-jinan\" data-reveal=\"scale\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 16px) scale(0.95, 0.95); opacity: 0;\">\n        <div class=\"mini-team-photo\" data-avatar-root=\"\">\n          <img src=\"assets/images/team/jinan.jpg\" alt=\"Dr. Jinan\" loading=\"lazy\"><span class=\"avatar-fallback mini-team-fallback\" style=\"background:linear-gradient(135deg, hsl(348 66% 44%), hsl(22 72% 56%))\">J</span>\n        </div>\n        <div class=\"team-meta\">\n          <span class=\"tag-petly\">Veterinary Doctor</span>\n          <h4 class=\"mt-3\">Dr. Jinan</h4>\n          <p>Pairs warmth with precision, helping pets settle more easily while keeping care thoughtful and thorough.</p>\n        </div>\n",
+    "doctorId": "jawad-al-ajlouni",
+    "grid": {
+      "width": "1200px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "grid",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 120,
+        "y": 224,
+        "width": 1200,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1320,
+        "bottom": 886.390625,
+        "left": 120
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-hero-grid"
+    },
+    "shell": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 120,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.921875,
+        "bottom": 886.390625,
+        "left": 120
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;",
+      "tagName": "DIV",
+      "classes": "doctor-media-shell"
+    },
+    "frame": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "480px",
+      "aspect-ratio": "4 / 5",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "hidden",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 120,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.921875,
+        "bottom": 886.390625,
+        "left": 120
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-portrait-frame"
+    },
+    "img": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "cover",
+      "display": "block",
+      "overflow": "clip",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 120,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.921875,
+        "bottom": 886.390625,
+        "left": 120
+      },
+      "inlineStyle": "",
+      "tagName": "IMG",
+      "classes": ""
+    },
+    "copy": {
+      "width": "647.688px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, 0.261734, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "38.4px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 672.57421875,
+        "y": 224,
+        "width": 647.6875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1320.26171875,
+        "bottom": 886.390625,
+        "left": 672.57421875
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;",
+      "tagName": "DIV",
+      "classes": "card-petly doctor-copy-card"
+    },
+    "fallback": {
+      "width": "100%",
+      "height": "100%",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "540px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "none",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "16px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "inlineStyle": "background:linear-gradient(135deg, hsl(67 66% 44%), hsl(101 72% 56%))",
+      "tagName": "SPAN",
+      "classes": "avatar-fallback portrait-fallback"
+    },
+    "imgNatural": {
+      "naturalWidth": 4521,
+      "naturalHeight": 5651,
+      "src": "http://localhost:8000/assets/images/team/jawad.jpg",
+      "currentSrc": "http://localhost:8000/assets/images/team/jawad.jpg",
+      "complete": true,
+      "displayed": ""
+    },
+    "fallbackVisible": false,
+    "imgRules": [
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img { max-width: 100%; display: block; }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".team-detail-card img, .doctor-portrait-frame img, .mini-team-card img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow), opacity var(--transition-base); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".doctor-portrait-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img, video { max-width: 100%; height: auto; }"
+      }
+    ],
+    "frameRules": [
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": null,
+        "css": ".doctor-portrait-frame { position: relative; overflow: hidden; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 0px; border-radius: 36% 64% 28% 72% / 24% 33% 67% 76%; background: linear-gradient(150deg, rgba(8, 167, 171, 0.22), rgba(40, 188, 168, 0.4)), rgba(255, 255, 255, 0.95); box-shadow: var(--shadow-strong); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": "(min-width: 992px)",
+        "css": ".doctor-portrait-frame { min-height: 480px; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "shellRules": [
+      {
+        "selector": ".doctor-hero-grid > *",
+        "media": null,
+        "css": ".doctor-hero-grid > *, .doctor-content-grid > * { min-width: 0px; }"
+      },
+      {
+        "selector": ".doctor-media-shell",
+        "media": null,
+        "css": ".doctor-media-shell { position: relative; }"
+      },
+      {
+        "selector": "[data-reveal]",
+        "media": null,
+        "css": "[data-reveal] { opacity: 0; transform: translateY(28px); }"
+      },
+      {
+        "selector": "[data-reveal=\"left\"]",
+        "media": null,
+        "css": "[data-reveal=\"left\"] { transform: translateX(-34px); }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "gridRules": [
+      {
+        "selector": ".doctor-hero-grid",
+        "media": null,
+        "css": ".doctor-hero-grid, .doctor-content-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 1.4rem; align-items: center; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "bodyScrollWidth": 1440,
+    "htmlScrollWidth": 1440,
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "adham": {
+    "docHTML": "<div data-doctor-detail-root=\"\" class=\"section-padding\">\n      <div class=\"doctor-shell\" data-doctor-id=\"dr-adham\">\n        <section class=\"doctor-hero\">\n          <div class=\"petly-container\">\n            <div class=\"doctor-hero-grid\">\n              <div class=\"doctor-media-shell\" data-reveal=\"left\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(-0.4302px, 0px, 0px); opacity: 0.9902;\">\n                <div class=\"doctor-media-orbit\"></div>\n                <div class=\"doctor-portrait-frame\" data-avatar-root=\"\">\n                  <img src=\"assets/images/team/adham.jpg\" alt=\"Dr. Adham\" loading=\"lazy\"><span class=\"avatar-fallback portrait-fallback\" style=\"background:linear-gradient(135deg, hsl(279 66% 44%), hsl(313 72% 56%))\">A</span>\n                  <div class=\"doctor-media-chip\">\n                    <strong>Petly Team</strong>\n                    <span>Veterinary Doctor</span>\n                  </div>\n                </div>\n              </div>\n              <div class=\"card-petly doctor-copy-card\" data-reveal=\"right\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0.4302px, 0px, 0px); opacity: 0.9902;\">\n                <p class=\"eyebrow\">Veterinary Doctor</p>\n                <h1>Dr. Adham</h1>\n                <p class=\"doctor-intro\">Provides attentive veterinary care with a calm bedside manner and clear communication for families.</p>\n                \n                \n                <div class=\"doctor-actions share-row\">\n                  <a class=\"btn-secondary-petly\" href=\"team.html\"><i class=\"bi bi-arrow-left\"></i> Back to team</a>\n                  <button class=\"btn-primary-petly\" type=\"button\" data-share-profile=\"\"><i class=\"bi bi-share\"></i> Share profile</button>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        \n        \n      <section class=\"section-padding-sm\">\n        <div class=\"petly-container\">\n          <div class=\"testimonials-shell\" data-reveal=\"scale\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 16px) scale(0.95, 0.95); opacity: 0;\">\n            <div class=\"section-heading mb-4\">\n              <p class=\"eyebrow\">Family Reviews</p>\n              <h2 class=\"text-white\">What pet owners say about Dr. Adham</h2>\n            </div>\n            <div class=\"swiper testimonials-swiper swiper-initialized swiper-horizontal swiper-backface-hidden\" data-swiper-ready=\"true\">\n              <div class=\"swiper-wrapper\" id=\"swiper-wrapper-d63473cfef708621\" aria-live=\"off\">\n                \n      <div class=\"swiper-slide swiper-slide-active\" role=\"group\" aria-label=\"1 / 1\" style=\"width: 1120px; margin-right: 16px;\">\n        <article class=\"testimonial-card\">\n          <div class=\"testimonial-media\" data-avatar-root=\"\">\n            <span class=\"avatar-fallback is-visible\" style=\"background:linear-gradient(135deg, hsl(326 66% 44%), hsl(0 72% 56%))\">SI</span>\n          </div>\n          <div>\n            <div class=\"testimonial-rating\">\n              <i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i>\n            </div>\n            <p>I had a wonderful experience at Petly. The staff are incredibly caring, professional, and attentive to every detail. A special thanks to Dr. Raed, Dr. Adham, Dina, and Mais for their kindness and dedication — they truly went above and beyond to make sure my pet received the best care. Their compassion and expertise made me feel completely at ease, and I'm very grateful for the excellent service. Highly recommended!</p>\n            <div class=\"testimonial-meta mt-4\">\n              <strong>Sawsan Istaitiea</strong>\n              <span>Google</span>\n            </div>\n          </div>\n        </article>\n      </div>\n    \n              </div>\n            <span class=\"swiper-notificatio",
+    "doctorId": "dr-adham",
+    "grid": {
+      "width": "1200px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "grid",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 120,
+        "y": 224,
+        "width": 1200,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1320,
+        "bottom": 886.390625,
+        "left": 120
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-hero-grid"
+    },
+    "shell": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, -0.4302, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 119.5698013305664,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.4916763305664,
+        "bottom": 886.390625,
+        "left": 119.5698013305664
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(-0.4302px, 0px, 0px); opacity: 0.9902;",
+      "tagName": "DIV",
+      "classes": "doctor-media-shell"
+    },
+    "frame": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "480px",
+      "aspect-ratio": "4 / 5",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "hidden",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 119.5698013305664,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.4916763305664,
+        "bottom": 886.390625,
+        "left": 119.5698013305664
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-portrait-frame"
+    },
+    "img": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "cover",
+      "display": "block",
+      "overflow": "clip",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 119.5698013305664,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 649.4916763305664,
+        "bottom": 886.390625,
+        "left": 119.5698013305664
+      },
+      "inlineStyle": "",
+      "tagName": "IMG",
+      "classes": ""
+    },
+    "copy": {
+      "width": "647.688px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, 18.6418, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "38.4px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 690.954345703125,
+        "y": 224,
+        "width": 647.6875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1338.641845703125,
+        "bottom": 886.390625,
+        "left": 690.954345703125
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(0.4302px, 0px, 0px); opacity: 0.9902;",
+      "tagName": "DIV",
+      "classes": "card-petly doctor-copy-card"
+    },
+    "fallback": {
+      "width": "100%",
+      "height": "100%",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "540px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "none",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "16px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "inlineStyle": "background:linear-gradient(135deg, hsl(279 66% 44%), hsl(313 72% 56%))",
+      "tagName": "SPAN",
+      "classes": "avatar-fallback portrait-fallback"
+    },
+    "imgNatural": {
+      "naturalWidth": 4600,
+      "naturalHeight": 5750,
+      "src": "http://localhost:8000/assets/images/team/adham.jpg",
+      "currentSrc": "http://localhost:8000/assets/images/team/adham.jpg",
+      "complete": true,
+      "displayed": ""
+    },
+    "fallbackVisible": false,
+    "imgRules": [
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img { max-width: 100%; display: block; }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".team-detail-card img, .doctor-portrait-frame img, .mini-team-card img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow), opacity var(--transition-base); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".doctor-portrait-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img, video { max-width: 100%; height: auto; }"
+      }
+    ],
+    "frameRules": [
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": null,
+        "css": ".doctor-portrait-frame { position: relative; overflow: hidden; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 0px; border-radius: 36% 64% 28% 72% / 24% 33% 67% 76%; background: linear-gradient(150deg, rgba(8, 167, 171, 0.22), rgba(40, 188, 168, 0.4)), rgba(255, 255, 255, 0.95); box-shadow: var(--shadow-strong); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": "(min-width: 992px)",
+        "css": ".doctor-portrait-frame { min-height: 480px; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "shellRules": [
+      {
+        "selector": ".doctor-hero-grid > *",
+        "media": null,
+        "css": ".doctor-hero-grid > *, .doctor-content-grid > * { min-width: 0px; }"
+      },
+      {
+        "selector": ".doctor-media-shell",
+        "media": null,
+        "css": ".doctor-media-shell { position: relative; }"
+      },
+      {
+        "selector": "[data-reveal]",
+        "media": null,
+        "css": "[data-reveal] { opacity: 0; transform: translateY(28px); }"
+      },
+      {
+        "selector": "[data-reveal=\"left\"]",
+        "media": null,
+        "css": "[data-reveal=\"left\"] { transform: translateX(-34px); }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "gridRules": [
+      {
+        "selector": ".doctor-hero-grid",
+        "media": null,
+        "css": ".doctor-hero-grid, .doctor-content-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 1.4rem; align-items: center; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "bodyScrollWidth": 1440,
+    "htmlScrollWidth": 1440,
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "raed": {
+    "docHTML": "<div data-doctor-detail-root=\"\" class=\"section-padding\">\n      <div class=\"doctor-shell\" data-doctor-id=\"dr-raed\">\n        <section class=\"doctor-hero\">\n          <div class=\"petly-container\">\n            <div class=\"doctor-hero-grid\">\n              <div class=\"doctor-media-shell\" data-reveal=\"left\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(-0.4363px, 0px, 0px); opacity: 0.9901;\">\n                <div class=\"doctor-media-orbit\"></div>\n                <div class=\"doctor-portrait-frame\" data-avatar-root=\"\">\n                  <img src=\"assets/images/team/raed.jpg\" alt=\"Dr. Raed\" loading=\"lazy\"><span class=\"avatar-fallback portrait-fallback\" style=\"background:linear-gradient(135deg, hsl(166 66% 44%), hsl(200 72% 56%))\">R</span>\n                  <div class=\"doctor-media-chip\">\n                    <strong>Petly Team</strong>\n                    <span>Veterinary Doctor</span>\n                  </div>\n                </div>\n              </div>\n              <div class=\"card-petly doctor-copy-card\" data-reveal=\"right\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0.4363px, 0px, 0px); opacity: 0.9901;\">\n                <p class=\"eyebrow\">Veterinary Doctor</p>\n                <h1>Dr. Raed</h1>\n                <p class=\"doctor-intro\">Brings balanced clinical judgment and reassuring guidance that helps owners feel supported at every step.</p>\n                \n                \n                <div class=\"doctor-actions share-row\">\n                  <a class=\"btn-secondary-petly\" href=\"team.html\"><i class=\"bi bi-arrow-left\"></i> Back to team</a>\n                  <button class=\"btn-primary-petly\" type=\"button\" data-share-profile=\"\"><i class=\"bi bi-share\"></i> Share profile</button>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        \n        \n      <section class=\"section-padding-sm\">\n        <div class=\"petly-container\">\n          <div class=\"testimonials-shell\" data-reveal=\"scale\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 16px) scale(0.95, 0.95); opacity: 0;\">\n            <div class=\"section-heading mb-4\">\n              <p class=\"eyebrow\">Family Reviews</p>\n              <h2 class=\"text-white\">What pet owners say about Dr. Raed</h2>\n            </div>\n            <div class=\"swiper testimonials-swiper swiper-initialized swiper-horizontal swiper-backface-hidden\" data-swiper-ready=\"true\">\n              <div class=\"swiper-wrapper\" id=\"swiper-wrapper-652d9c1791aeaaf6\" aria-live=\"off\">\n                \n      <div class=\"swiper-slide swiper-slide-active\" role=\"group\" aria-label=\"1 / 2\" data-swiper-slide-index=\"0\" style=\"width: 1120px; margin-right: 16px;\">\n        <article class=\"testimonial-card\">\n          <div class=\"testimonial-media\" data-avatar-root=\"\">\n            <span class=\"avatar-fallback is-visible\" style=\"background:linear-gradient(135deg, hsl(173 66% 44%), hsl(207 72% 56%))\">IV</span>\n          </div>\n          <div>\n            <div class=\"testimonial-rating\">\n              <i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i>\n            </div>\n            <p>Petly staff has been absolutely amazing! They took wonderful care of my cat, saved her life, and followed her diet instructions carefully. The entire team went above and beyond to make sure she was healthy and ready to travel. A special thank you to Dr. Raed for his empathetic and caring approach, and to the lovely ladies at the reception who helped ensure all the travel paperwork and health certificates were in order — you're all truly awesome, thank you for everything! ❤️</p>\n            <div class=\"testimonial-meta mt-4\">\n              <strong>Imad Vodislav</strong>\n              <span>Google</span>\n            </div>\n          </div>\n        </art",
+    "doctorId": "dr-raed",
+    "grid": {
+      "width": "1200px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "grid",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 576,
+        "y": 224,
+        "width": 1200,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1776,
+        "bottom": 886.390625,
+        "left": 576
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-hero-grid"
+    },
+    "shell": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, -0.4363, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 575.563720703125,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1105.485595703125,
+        "bottom": 886.390625,
+        "left": 575.563720703125
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(-0.4363px, 0px, 0px); opacity: 0.9901;",
+      "tagName": "DIV",
+      "classes": "doctor-media-shell"
+    },
+    "frame": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "480px",
+      "aspect-ratio": "4 / 5",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "hidden",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 575.563720703125,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1105.485595703125,
+        "bottom": 886.390625,
+        "left": 575.563720703125
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-portrait-frame"
+    },
+    "img": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "cover",
+      "display": "block",
+      "overflow": "clip",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 575.563720703125,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1105.485595703125,
+        "bottom": 886.390625,
+        "left": 575.563720703125
+      },
+      "inlineStyle": "",
+      "tagName": "IMG",
+      "classes": ""
+    },
+    "copy": {
+      "width": "647.688px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, 18.2433, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "38.4px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 1146.555908203125,
+        "y": 224,
+        "width": 647.6875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1794.243408203125,
+        "bottom": 886.390625,
+        "left": 1146.555908203125
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(0.4363px, 0px, 0px); opacity: 0.9901;",
+      "tagName": "DIV",
+      "classes": "card-petly doctor-copy-card"
+    },
+    "fallback": {
+      "width": "100%",
+      "height": "100%",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "540px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "none",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "16px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "inlineStyle": "background:linear-gradient(135deg, hsl(166 66% 44%), hsl(200 72% 56%))",
+      "tagName": "SPAN",
+      "classes": "avatar-fallback portrait-fallback"
+    },
+    "imgNatural": {
+      "naturalWidth": 4600,
+      "naturalHeight": 5750,
+      "src": "http://localhost:8000/assets/images/team/raed.jpg",
+      "currentSrc": "http://localhost:8000/assets/images/team/raed.jpg",
+      "complete": true,
+      "displayed": ""
+    },
+    "fallbackVisible": false,
+    "imgRules": [
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img { max-width: 100%; display: block; }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".team-detail-card img, .doctor-portrait-frame img, .mini-team-card img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow), opacity var(--transition-base); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".doctor-portrait-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img, video { max-width: 100%; height: auto; }"
+      }
+    ],
+    "frameRules": [
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": null,
+        "css": ".doctor-portrait-frame { position: relative; overflow: hidden; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 0px; border-radius: 36% 64% 28% 72% / 24% 33% 67% 76%; background: linear-gradient(150deg, rgba(8, 167, 171, 0.22), rgba(40, 188, 168, 0.4)), rgba(255, 255, 255, 0.95); box-shadow: var(--shadow-strong); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": "(min-width: 992px)",
+        "css": ".doctor-portrait-frame { min-height: 480px; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "shellRules": [
+      {
+        "selector": ".doctor-hero-grid > *",
+        "media": null,
+        "css": ".doctor-hero-grid > *, .doctor-content-grid > * { min-width: 0px; }"
+      },
+      {
+        "selector": ".doctor-media-shell",
+        "media": null,
+        "css": ".doctor-media-shell { position: relative; }"
+      },
+      {
+        "selector": "[data-reveal]",
+        "media": null,
+        "css": "[data-reveal] { opacity: 0; transform: translateY(28px); }"
+      },
+      {
+        "selector": "[data-reveal=\"left\"]",
+        "media": null,
+        "css": "[data-reveal=\"left\"] { transform: translateX(-34px); }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "gridRules": [
+      {
+        "selector": ".doctor-hero-grid",
+        "media": null,
+        "css": ".doctor-hero-grid, .doctor-content-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 1.4rem; align-items: center; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "bodyScrollWidth": 2352,
+    "htmlScrollWidth": 2352,
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "yara": {
+    "docHTML": "<div data-doctor-detail-root=\"\" class=\"section-padding\">\n      <div class=\"doctor-shell\" data-doctor-id=\"dr-yara\">\n        <section class=\"doctor-hero\">\n          <div class=\"petly-container\">\n            <div class=\"doctor-hero-grid\">\n              <div class=\"doctor-media-shell\" data-reveal=\"left\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(-0.3408px, 0px, 0px); opacity: 0.9923;\">\n                <div class=\"doctor-media-orbit\"></div>\n                <div class=\"doctor-portrait-frame\" data-avatar-root=\"\">\n                  <img src=\"assets/images/team/yara.jpg\" alt=\"Dr. Yara\" loading=\"lazy\"><span class=\"avatar-fallback portrait-fallback\" style=\"background:linear-gradient(135deg, hsl(303 66% 44%), hsl(337 72% 56%))\">Y</span>\n                  <div class=\"doctor-media-chip\">\n                    <strong>Petly Team</strong>\n                    <span>Veterinary Doctor</span>\n                  </div>\n                </div>\n              </div>\n              <div class=\"card-petly doctor-copy-card\" data-reveal=\"right\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0.3408px, 0px, 0px); opacity: 0.9923;\">\n                <p class=\"eyebrow\">Veterinary Doctor</p>\n                <h1>Dr. Yara</h1>\n                <p class=\"doctor-intro\">Combines compassionate care with practical treatment planning so families leave with confidence and clarity.</p>\n                \n                \n                <div class=\"doctor-actions share-row\">\n                  <a class=\"btn-secondary-petly\" href=\"team.html\"><i class=\"bi bi-arrow-left\"></i> Back to team</a>\n                  <button class=\"btn-primary-petly\" type=\"button\" data-share-profile=\"\"><i class=\"bi bi-share\"></i> Share profile</button>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        \n        \n      <section class=\"section-padding-sm\">\n        <div class=\"petly-container\">\n          <div class=\"testimonials-shell\" data-reveal=\"scale\" data-reveal-ready=\"true\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 16px) scale(0.95, 0.95); opacity: 0;\">\n            <div class=\"section-heading mb-4\">\n              <p class=\"eyebrow\">Family Reviews</p>\n              <h2 class=\"text-white\">What pet owners say about Dr. Yara</h2>\n            </div>\n            <div class=\"swiper testimonials-swiper swiper-initialized swiper-horizontal swiper-backface-hidden\" data-swiper-ready=\"true\">\n              <div class=\"swiper-wrapper\" id=\"swiper-wrapper-e66146c810c26addc\" aria-live=\"off\">\n                \n      <div class=\"swiper-slide swiper-slide-active\" role=\"group\" aria-label=\"1 / 3\" data-swiper-slide-index=\"0\" style=\"width: 1120px; margin-right: 16px;\">\n        <article class=\"testimonial-card\">\n          <div class=\"testimonial-media\" data-avatar-root=\"\">\n            <span class=\"avatar-fallback is-visible\" style=\"background:linear-gradient(135deg, hsl(132 66% 44%), hsl(166 72% 56%))\">J</span>\n          </div>\n          <div>\n            <div class=\"testimonial-rating\">\n              <i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i><i class=\"bi bi-star-fill\"></i>\n            </div>\n            <p>Petly has been amazing. They saved my puppy's life when she was fighting a deadly virus. The staff went above and beyond and even went out of their way to make sure she was constantly monitored and well taken care of. From the moment we walked in, the team showed compassion, professionalism, and dedication. They kept me updated, answered all my endless questions, and treated my puppy with so much care and attention during a very stressful time. A special thank you to Dr. Yara and Dr. Abdelrahman for their expertise, kindness, and commitment.</p>\n            <div class=\"testimonial-meta mt-4\">\n              <strong>Joud</strong>\n              <span>",
+    "doctorId": "dr-yara",
+    "grid": {
+      "width": "1200px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "grid",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 1144,
+        "y": 224,
+        "width": 1200,
+        "height": 662.390625,
+        "top": 224,
+        "right": 2344,
+        "bottom": 886.390625,
+        "left": 1144
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-hero-grid"
+    },
+    "shell": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, -0.3408, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 1143.6591796875,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1673.5810546875,
+        "bottom": 886.390625,
+        "left": 1143.6591796875
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(-0.3408px, 0px, 0px); opacity: 0.9923;",
+      "tagName": "DIV",
+      "classes": "doctor-media-shell"
+    },
+    "frame": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "480px",
+      "aspect-ratio": "4 / 5",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "hidden",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 1143.6591796875,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1673.5810546875,
+        "bottom": 886.390625,
+        "left": 1143.6591796875
+      },
+      "inlineStyle": "",
+      "tagName": "DIV",
+      "classes": "doctor-portrait-frame"
+    },
+    "img": {
+      "width": "529.922px",
+      "height": "662.391px",
+      "max-width": "100%",
+      "min-width": "0px",
+      "min-height": "0px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "cover",
+      "display": "block",
+      "overflow": "clip",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "0px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 1143.6591796875,
+        "y": 224,
+        "width": 529.921875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 1673.5810546875,
+        "bottom": 886.390625,
+        "left": 1143.6591796875
+      },
+      "inlineStyle": "",
+      "tagName": "IMG",
+      "classes": ""
+    },
+    "copy": {
+      "width": "647.688px",
+      "height": "662.391px",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "auto",
+      "aspect-ratio": "auto",
+      "position": "relative",
+      "inset": "0px",
+      "transform": "matrix(1, 0, 0, 1, 17.877, 0)",
+      "object-fit": "fill",
+      "display": "block",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "38.4px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "rect": {
+        "x": 1714.189453125,
+        "y": 224,
+        "width": 647.6875,
+        "height": 662.390625,
+        "top": 224,
+        "right": 2361.876953125,
+        "bottom": 886.390625,
+        "left": 1714.189453125
+      },
+      "inlineStyle": "translate: none; rotate: none; scale: none; transform: translate3d(0.3408px, 0px, 0px); opacity: 0.9923;",
+      "tagName": "DIV",
+      "classes": "card-petly doctor-copy-card"
+    },
+    "fallback": {
+      "width": "100%",
+      "height": "100%",
+      "max-width": "none",
+      "min-width": "0px",
+      "min-height": "540px",
+      "aspect-ratio": "auto",
+      "position": "static",
+      "inset": "auto",
+      "transform": "none",
+      "object-fit": "fill",
+      "display": "none",
+      "overflow": "visible",
+      "box-sizing": "border-box",
+      "margin": "0px",
+      "padding": "16px",
+      "top": "auto",
+      "right": "auto",
+      "bottom": "auto",
+      "left": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "inlineStyle": "background:linear-gradient(135deg, hsl(303 66% 44%), hsl(337 72% 56%))",
+      "tagName": "SPAN",
+      "classes": "avatar-fallback portrait-fallback"
+    },
+    "imgNatural": {
+      "naturalWidth": 4644,
+      "naturalHeight": 5805,
+      "src": "http://localhost:8000/assets/images/team/yara.jpg",
+      "currentSrc": "http://localhost:8000/assets/images/team/yara.jpg",
+      "complete": true,
+      "displayed": ""
+    },
+    "fallbackVisible": false,
+    "imgRules": [
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img { max-width: 100%; display: block; }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".team-detail-card img, .doctor-portrait-frame img, .mini-team-card img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow), opacity var(--transition-base); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame img",
+        "media": null,
+        "css": ".doctor-portrait-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }"
+      },
+      {
+        "selector": "img",
+        "media": null,
+        "css": "img, video { max-width: 100%; height: auto; }"
+      }
+    ],
+    "frameRules": [
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": null,
+        "css": ".doctor-portrait-frame { position: relative; overflow: hidden; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 0px; border-radius: 36% 64% 28% 72% / 24% 33% 67% 76%; background: linear-gradient(150deg, rgba(8, 167, 171, 0.22), rgba(40, 188, 168, 0.4)), rgba(255, 255, 255, 0.95); box-shadow: var(--shadow-strong); }"
+      },
+      {
+        "selector": ".doctor-portrait-frame",
+        "media": "(min-width: 992px)",
+        "css": ".doctor-portrait-frame { min-height: 480px; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "shellRules": [
+      {
+        "selector": ".doctor-hero-grid > *",
+        "media": null,
+        "css": ".doctor-hero-grid > *, .doctor-content-grid > * { min-width: 0px; }"
+      },
+      {
+        "selector": ".doctor-media-shell",
+        "media": null,
+        "css": ".doctor-media-shell { position: relative; }"
+      },
+      {
+        "selector": "[data-reveal]",
+        "media": null,
+        "css": "[data-reveal] { opacity: 0; transform: translateY(28px); }"
+      },
+      {
+        "selector": "[data-reveal=\"left\"]",
+        "media": null,
+        "css": "[data-reveal=\"left\"] { transform: translateX(-34px); }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "gridRules": [
+      {
+        "selector": ".doctor-hero-grid",
+        "media": null,
+        "css": ".doctor-hero-grid, .doctor-content-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 1.4rem; align-items: center; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }"
+      },
+      {
+        "selector": "*",
+        "media": null,
+        "css": "*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }"
+      }
+    ],
+    "bodyScrollWidth": 3488,
+    "htmlScrollWidth": 3488,
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    }
+  }
+}

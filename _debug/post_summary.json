@@ -1,0 +1,142 @@
+{
+  "home_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 28,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "team_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 11,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 6,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_jawad_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 5,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_yara_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 6,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "services_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 18,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "contact_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 7,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "gallery_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 5,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "about_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 17,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "blog_desktop": {
+    "scrollW": 1440,
+    "viewport": 1440,
+    "hidden": 8,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "home_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 28,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "team_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 11,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 6,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_jawad_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 5,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "doctor_yara_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 6,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "services_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 17,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "contact_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 8,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "gallery_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 7,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "about_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 17,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  },
+  "blog_mobile": {
+    "scrollW": 390,
+    "viewport": 390,
+    "hidden": 9,
+    "hiddenStuck": 0,
+    "ariaExpanded": "false"
+  }
+}

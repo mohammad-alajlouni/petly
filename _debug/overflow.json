@@ -1,0 +1,524 @@
+{
+  "jawad-al-ajlouni": {
+    "vw": 1440,
+    "docW": 1440,
+    "offenders": []
+  },
+  "dr-adham": {
+    "vw": 1440,
+    "docW": 1440,
+    "offenders": []
+  },
+  "dr-raed": {
+    "vw": 1440,
+    "docW": 2352,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "id": "",
+        "x": 1723,
+        "y": 1164,
+        "width": 1064,
+        "right": 2787,
+        "text": "SI\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "testimonial-card",
+        "id": "",
+        "x": 1723,
+        "y": 1164,
+        "width": 1064,
+        "right": 2787,
+        "text": "SI\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "id": "",
+        "x": 1908,
+        "y": 1164,
+        "width": 880,
+        "right": 2787,
+        "text": "I had a wonderful experience at Petly. The staff are incredi"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "id": "",
+        "x": 1908,
+        "y": 1201,
+        "width": 880,
+        "right": 2787,
+        "text": "I had a wonderful experience at Petly. The staff are incredi"
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-meta mt-4",
+        "id": "",
+        "x": 1908,
+        "y": 1482,
+        "width": 880,
+        "right": 2787,
+        "text": "Sawsan Istaitiea\n              Google"
+      },
+      {
+        "tag": "STRONG",
+        "cls": "",
+        "id": "",
+        "x": 1908,
+        "y": 1482,
+        "width": 880,
+        "right": 2787,
+        "text": "Sawsan Istaitiea"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "id": "",
+        "x": 1908,
+        "y": 1505,
+        "width": 880,
+        "right": 2787,
+        "text": "Google"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "doctor-hero",
+        "id": "",
+        "x": 0,
+        "y": 96,
+        "width": 2352,
+        "right": 2352,
+        "text": "R\n                  \n                    Petly Team\n        "
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm",
+        "id": "",
+        "x": 0,
+        "y": 950,
+        "width": 2352,
+        "right": 2352,
+        "text": "Family Reviews\n              What pet owners say about Dr. R"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm",
+        "id": "",
+        "x": 0,
+        "y": 1796,
+        "width": 2352,
+        "right": 2352,
+        "text": "Other Team Members\n                Meet the Rest of Our Team"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm doctor-cta",
+        "id": "",
+        "x": 0,
+        "y": 2736,
+        "width": 2352,
+        "right": 2352,
+        "text": "Talk to Petly\n                Have a question for Dr. Raed?\n"
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-rating",
+        "id": "",
+        "x": 1908,
+        "y": 1164,
+        "width": 91,
+        "right": 1999,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 1984,
+        "y": 1164,
+        "width": 15,
+        "right": 1999,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 1965,
+        "y": 1164,
+        "width": 15,
+        "right": 1980,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 1946,
+        "y": 1164,
+        "width": 15,
+        "right": 1961,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 1927,
+        "y": 1164,
+        "width": 15,
+        "right": 1942,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 1908,
+        "y": 1164,
+        "width": 15,
+        "right": 1923,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-media",
+        "id": "",
+        "x": 1723,
+        "y": 1280,
+        "width": 133,
+        "right": 1856,
+        "text": "SI"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "avatar-fallback is-visible",
+        "id": "",
+        "x": 1728,
+        "y": 1284,
+        "width": 124,
+        "right": 1851,
+        "text": "SI"
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-petly doctor-copy-card",
+        "id": "",
+        "x": 1139,
+        "y": 224,
+        "width": 648,
+        "right": 1787,
+        "text": "Veterinary Doctor\n                Dr. Raed\n                B"
+      },
+      {
+        "tag": "DIV",
+        "cls": "petly-container",
+        "id": "",
+        "x": 576,
+        "y": 224,
+        "width": 1200,
+        "right": 1776,
+        "text": "R\n                  \n                    Petly Team\n        "
+      },
+      {
+        "tag": "DIV",
+        "cls": "doctor-hero-grid",
+        "id": "",
+        "x": 576,
+        "y": 224,
+        "width": 1200,
+        "right": 1776,
+        "text": "R\n                  \n                    Petly Team\n        "
+      },
+      {
+        "tag": "DIV",
+        "cls": "petly-container",
+        "id": "",
+        "x": 576,
+        "y": 1014,
+        "width": 1200,
+        "right": 1776,
+        "text": "Family Reviews\n              What pet owners say about Dr. R"
+      },
+      {
+        "tag": "DIV",
+        "cls": "petly-container",
+        "id": "",
+        "x": 576,
+        "y": 1860,
+        "width": 1200,
+        "right": 1776,
+        "text": "Other Team Members\n                Meet the Rest of Our Team"
+      },
+      {
+        "tag": "DIV",
+        "cls": "related-team-grid",
+        "id": "",
+        "x": 576,
+        "y": 1968,
+        "width": 1200,
+        "right": 1776,
+        "text": "HA\n        \n        \n          Quality Manager\n          Ham"
+      }
+    ]
+  },
+  "dr-yara": {
+    "vw": 1440,
+    "docW": 3488,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "cls": "swiper-slide",
+        "id": "",
+        "x": 3370,
+        "y": 1165,
+        "width": 1064,
+        "right": 4434,
+        "text": "FM\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "testimonial-card",
+        "id": "",
+        "x": 3370,
+        "y": 1165,
+        "width": 1064,
+        "right": 4434,
+        "text": "FM\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "id": "",
+        "x": 3555,
+        "y": 1165,
+        "width": 880,
+        "right": 4434,
+        "text": "I had such a great experience at Petly. The place feels supe"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "id": "",
+        "x": 3555,
+        "y": 1202,
+        "width": 880,
+        "right": 4434,
+        "text": "I had such a great experience at Petly. The place feels supe"
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-meta mt-4",
+        "id": "",
+        "x": 3555,
+        "y": 1557,
+        "width": 880,
+        "right": 4434,
+        "text": "Fawzi Murad\n              Google"
+      },
+      {
+        "tag": "STRONG",
+        "cls": "",
+        "id": "",
+        "x": 3555,
+        "y": 1557,
+        "width": 880,
+        "right": 4434,
+        "text": "Fawzi Murad"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "id": "",
+        "x": 3555,
+        "y": 1580,
+        "width": 880,
+        "right": 4434,
+        "text": "Google"
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-rating",
+        "id": "",
+        "x": 3555,
+        "y": 1165,
+        "width": 91,
+        "right": 3646,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 3631,
+        "y": 1165,
+        "width": 15,
+        "right": 3646,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 3612,
+        "y": 1165,
+        "width": 15,
+        "right": 3627,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 3593,
+        "y": 1165,
+        "width": 15,
+        "right": 3608,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 3574,
+        "y": 1165,
+        "width": 15,
+        "right": 3589,
+        "text": ""
+      },
+      {
+        "tag": "I",
+        "cls": "bi bi-star-fill",
+        "id": "",
+        "x": 3555,
+        "y": 1165,
+        "width": 15,
+        "right": 3570,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-media",
+        "id": "",
+        "x": 3370,
+        "y": 1318,
+        "width": 133,
+        "right": 3503,
+        "text": "FM"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "avatar-fallback is-visible",
+        "id": "",
+        "x": 3375,
+        "y": 1322,
+        "width": 124,
+        "right": 3499,
+        "text": "FM"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "doctor-hero",
+        "id": "",
+        "x": 0,
+        "y": 96,
+        "width": 3488,
+        "right": 3488,
+        "text": "Y\n                  \n                    Petly Team\n        "
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm",
+        "id": "",
+        "x": 0,
+        "y": 950,
+        "width": 3488,
+        "right": 3488,
+        "text": "Family Reviews\n              What pet owners say about Dr. Y"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm",
+        "id": "",
+        "x": 0,
+        "y": 1835,
+        "width": 3488,
+        "right": 3488,
+        "text": "Other Team Members\n                Meet the Rest of Our Team"
+      },
+      {
+        "tag": "SECTION",
+        "cls": "section-padding-sm doctor-cta",
+        "id": "",
+        "x": 0,
+        "y": 2775,
+        "width": 3488,
+        "right": 3488,
+        "text": "Talk to Petly\n                Have a question for Dr. Yara?\n"
+      },
+      {
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "id": "",
+        "x": 2291,
+        "y": 1165,
+        "width": 1064,
+        "right": 3355,
+        "text": "MM\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "testimonial-card",
+        "id": "",
+        "x": 2291,
+        "y": 1165,
+        "width": 1064,
+        "right": 3355,
+        "text": "MM\n          \n          \n            \n              \n       "
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "id": "",
+        "x": 2476,
+        "y": 1165,
+        "width": 880,
+        "right": 3355,
+        "text": "I would like to express my heartfelt appreciation to the ent"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "id": "",
+        "x": 2476,
+        "y": 1202,
+        "width": 880,
+        "right": 3355,
+        "text": "I would like to express my heartfelt appreciation to the ent"
+      },
+      {
+        "tag": "DIV",
+        "cls": "testimonial-meta mt-4",
+        "id": "",
+        "x": 2476,
+        "y": 1520,
+        "width": 880,
+        "right": 3355,
+        "text": "Miral Murad\n              Google"
+      },
+      {
+        "tag": "STRONG",
+        "cls": "",
+        "id": "",
+        "x": 2476,
+        "y": 1520,
+        "width": 880,
+        "right": 3355,
+        "text": "Miral Murad"
+      }
+    ]
+  }
+}
