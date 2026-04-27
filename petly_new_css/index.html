@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petly Veterinary Clinic | Modern Care with a Softer Heartbeat</title>
+  <meta name="description" content="Petly Veterinary Clinic offers premium, compassionate pet care through a modern static frontend experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=Readex+Pro:wght@500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/hero/hero-clinic.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            petly: {
+              primary: '#28BCA8',
+              secondary: '#08A7AB',
+              accent: '#F6C453',
+              deep: '#17312D',
+              ink: '#444444',
+              mist: '#ECEFF8'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body data-lang="en" data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div data-site-header></div>
+
+  <main id="main-content" class="petly-main">
+    <section class="hero-shell">
+      <div class="hero-mesh"></div>
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-paws" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="petly-container position-relative z-2 py-5">
+        <div class="row align-items-center g-5 pt-5">
+          <div class="col-lg-6">
+            <div class="hero-copy pe-xl-4">
+              <div class="trust-chip mb-4" data-hero-reveal>
+                <span class="chip-dot"></span>
+                <span>Warm communication, modern medicine, calmer visits</span>
+              </div>
+              <p class="eyebrow" data-hero-reveal>Petly Veterinary Clinic</p>
+              <h1 class="hero-title" data-hero-reveal>
+                Where pets feel
+                <span class="text-gradient">safe, seen,</span>
+                and deeply cared for.
+              </h1>
+              <p class="hero-description lead-copy" data-hero-reveal>
+                Petly turns the clinic experience into something gentler and more human: elegant surroundings,
+                low-stress handling, and a care team that explains every step with clarity.
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-3 mt-4" data-hero-reveal>
+                <a class="btn-primary-petly" href="services.html">Our Services</a>
+                <a class="btn-secondary-petly" href="contact.html">Contact Us</a>
+              </div>
+              <div class="hero-trust-grid row row-cols-2 g-3" data-hero-reveal>
+                <div class="col"><article class="stat-card"><strong>12+</strong><span>years of trusted care</span></article></div>
+                <div class="col"><article class="stat-card"><strong>9.5k</strong><span>pets treated with patience</span></article></div>
+                <div class="col"><article class="stat-card"><strong>4.9/5</strong><span>family satisfaction</span></article></div>
+                <div class="col"><article class="stat-card"><strong>24/7</strong><span>guidance when it matters</span></article></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual" data-parallax="0.08">
+              <div class="hero-photo-frame position-relative">
+                <img src="assets/images/hero/hero-clinic.jpg" alt="Petly clinic team caring for a dog in a warm, welcoming room" class="hero-background-photo">
+                <div class="hero-photo-glow"></div>
+              </div>
+              <img src="assets/images/hero/hero-pet.png" alt="Happy pet illustration in the Petly hero composition" class="hero-foreground-pet">
+              <div class="floating-note note-top">
+                <strong>Low-stress visits</strong>
+                <span>calm rooms, thoughtful pacing</span>
+              </div>
+              <div class="floating-note note-bottom">
+                <strong>Clear care plans</strong>
+                <span>nothing rushed, nothing vague</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue z-2">
+        <span></span>
+        <p>Scroll to explore</p>
+      </div>
+    </section>
+
+    <section class="trust-bar section-padding-sm">
+      <div class="petly-container">
+        <div class="trust-strip glass-panel" data-reveal="scale">
+          <article class="trust-item">
+            <div class="icon-badge"><i class="bi bi-shield-check"></i></div>
+            <strong>Modern protocols</strong>
+            <span>Thoughtful, current standards of care</span>
+          </article>
+          <article class="trust-item">
+            <div class="icon-badge"><i class="bi bi-heart-pulse"></i></div>
+            <strong>Gentle handling</strong>
+            <span>Stress-aware visits for shy pets</span>
+          </article>
+          <article class="trust-item">
+            <div class="icon-badge"><i class="bi bi-stars"></i></div>
+            <strong>Trusted by families</strong>
+            <span>Strong relationships built over time</span>
+          </article>
+          <article class="trust-item">
+            <div class="icon-badge"><i class="bi bi-patch-check"></i></div>
+            <strong>Clear follow-up</strong>
+            <span>Guidance that continues after the visit</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding mesh-bg overflow-hidden">
+      <div class="petly-container">
+        <div class="services-rail">
+          <div class="sticky-copy" data-reveal="left">
+            <p class="eyebrow">Our Services</p>
+            <h2>Care that grows with every stage of life.</h2>
+            <p class="lead-copy mt-4">Petly combines preventive care, diagnostics, surgery support, and long-term wellness guidance in one calm, beautifully designed experience.</p>
+            <a class="btn-link-petly mt-4" href="services.html">Explore all services <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+          </div>
+          <div class="services-track">
+            <article class="card-petly service-card" data-reveal="right">
+              <div class="service-media"><img src="assets/images/services/pets.jpg" alt="Preventive care consultation at Petly" loading="lazy"></div>
+              <div class="service-body">
+                <span class="tag-petly">01</span>
+                <h4 class="mt-3">Preventive Care</h4>
+                <p class="mt-3">Routine exams, nutrition guidance, wellness planning, and gentle checkups that help catch concerns early.</p>
+                <span class="service-arrow">Learn more <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></span>
+              </div>
+            </article>
+            <article class="card-petly service-card" data-reveal="right">
+              <div class="service-media"><img src="assets/images/services/vaccine-dog.png" alt="Vaccination support for a dog" loading="lazy"></div>
+              <div class="service-body">
+                <span class="tag-petly">02</span>
+                <h4 class="mt-3">Vaccination Programs</h4>
+                <p class="mt-3">Carefully timed vaccine plans built around age, lifestyle, travel, and your pet’s full medical picture.</p>
+                <span class="service-arrow">Learn more <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></span>
+              </div>
+            </article>
+            <article class="card-petly service-card" data-reveal="right">
+              <div class="service-media"><img src="assets/images/services/fleas.png" alt="Skin and parasite care service" loading="lazy"></div>
+              <div class="service-body">
+                <span class="tag-petly">03</span>
+                <h4 class="mt-3">Skin & Parasite Care</h4>
+                <p class="mt-3">Support for itching, allergies, coat issues, and parasite prevention with clearer long-term strategies.</p>
+                <span class="service-arrow">Learn more <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></span>
+              </div>
+            </article>
+            <article class="card-petly service-card" data-reveal="right">
+              <div class="service-media"><img src="assets/images/contact/clinic-contact-1.jpg" alt="Petly treatment room ready for diagnostics" loading="lazy"></div>
+              <div class="service-body">
+                <span class="tag-petly">04</span>
+                <h4 class="mt-3">Diagnostics</h4>
+                <p class="mt-3">Focused assessment, calm communication, and practical next steps when families need answers quickly.</p>
+                <span class="service-arrow">Learn more <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></span>
+              </div>
+            </article>
+            <article class="card-petly service-card" data-reveal="right">
+              <div class="service-media"><img src="assets/images/gallery/gallery-2.jpg" alt="Recovery support area inside the clinic" loading="lazy"></div>
+              <div class="service-body">
+                <span class="tag-petly">05</span>
+                <h4 class="mt-3">Surgery & Recovery</h4>
+                <p class="mt-3">Attentive surgical care with recovery planning that keeps families informed and pets more comfortable.</p>
+                <span class="service-arrow">Learn more <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="petly-container">
+        <div class="section-heading centered" data-reveal="scale">
+          <p class="eyebrow justify-content-center">Why Choose Petly</p>
+          <h2>Every detail is designed to make care feel calmer, clearer, and kinder.</h2>
+        </div>
+        <div class="why-grid">
+          <article class="card-petly why-card" data-reveal="left">
+            <div class="lottie-wrap" data-lottie="petly"></div>
+            <h4>Calm by design</h4>
+            <p class="mt-3">From the arrival flow to the consultation room, Petly reduces overstimulation and gives pets more space to settle.</p>
+          </article>
+          <article class="card-petly why-card" data-reveal="scale">
+            <div class="icon-badge mb-4"><i class="bi bi-chat-heart"></i></div>
+            <h4>Clear communication</h4>
+            <p class="mt-3">Families leave with practical next steps, not confusion. We explain options in plain, respectful language.</p>
+          </article>
+          <article class="card-petly why-card" data-reveal="right">
+            <div class="icon-badge mb-4"><i class="bi bi-clipboard2-pulse"></i></div>
+            <h4>Long-view wellness</h4>
+            <p class="mt-3">We look beyond today’s issue and build care plans that support comfort, resilience, and healthier years ahead.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding-sm">
+      <div class="petly-container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 mb-5">
+          <div class="section-heading mb-0" data-reveal="left">
+            <p class="eyebrow">Meet the Team</p>
+            <h2>The people pets learn to trust.</h2>
+          </div>
+          <a class="btn-link-petly" href="team.html" data-reveal="right">Meet every specialist <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+        </div>
+        <div class="team-preview-grid">
+          <article class="team-card team-card-featured" data-reveal="scale">
+            <img src="assets/images/team/jawad-al-ajlouni.jpg" alt="Jawad Al-Ajlouni, founder and CEO of Petly" loading="lazy">
+            <div class="team-content">
+              <span class="team-feature-badge">Founder &amp; CEO</span>
+              <strong>Jawad Al-Ajlouni</strong>
+              <small>Founder &amp; CEO</small>
+              <!-- TODO: founder English short bio — not found in legacy site -->
+              <p class="mt-2">Founder profile details from the legacy site are being restored.</p>
+            </div>
+          </article>
+          <article class="team-card" data-reveal="scale">
+            <img src="assets/images/team/adham.jpg" alt="Dr. Adham, Petly veterinarian" loading="lazy">
+            <div class="team-content">
+              <strong>Dr. Adham</strong>
+              <small>Veterinary Doctor</small>
+              <p class="mt-2">Calm, attentive care focused on clear answers, thoughtful exams, and a gentler experience for every pet.</p>
+            </div>
+          </article>
+          <article class="team-card" data-reveal="scale">
+            <img src="assets/images/team/raed.jpg" alt="Dr. Raed, Petly veterinarian" loading="lazy">
+            <div class="team-content">
+              <strong>Dr. Raed</strong>
+              <small>Veterinary Doctor</small>
+              <p class="mt-2">Known for steady clinical judgment, patient explanations, and reassuring support in sensitive moments.</p>
+            </div>
+          </article>
+          <article class="team-card" data-reveal="scale">
+            <img src="assets/images/team/jinan.jpg" alt="Dr. Jinan, Petly veterinarian" loading="lazy">
+            <div class="team-content">
+              <strong>Dr. Jinan</strong>
+              <small>Veterinary Doctor</small>
+              <p class="mt-2">Brings warmth, precision, and a comforting presence that helps pets and families settle more quickly.</p>
+            </div>
+          </article>
+          <article class="team-card" data-reveal="scale">
+            <img src="assets/images/team/yara.jpg" alt="Dr. Yara, Petly veterinarian" loading="lazy">
+            <div class="team-content">
+              <strong>Dr. Yara</strong>
+              <small>Veterinary Doctor</small>
+              <p class="mt-2">Pairs compassionate care with practical treatment guidance so families feel supported after every visit.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="petly-container">
+        <div class="testimonials-shell" data-reveal="scale">
+          <div class="section-heading mb-4">
+            <p class="eyebrow">Testimonials</p>
+            <h2 class="text-white">Small moments of relief, remembered clearly.</h2>
+          </div>
+          <div class="swiper testimonials-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="testimonial-card">
+                  <img src="assets/images/testimonials/testimonial-1.jpg" alt="Portrait of a pet owner sharing a testimonial" loading="lazy">
+                  <div>
+                    <div class="testimonial-rating">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>“Petly made our anxious rescue dog feel safe almost immediately. The space felt calm, and every explanation felt honest.”</p>
+                    <div class="testimonial-meta mt-4">
+                      <strong>Rana & Milo</strong>
+                      <span>Petly family for 3 years</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="testimonial-card">
+                  <img src="assets/images/testimonials/testimonial-2.jpg" alt="Pet owner smiling during testimonial portrait" loading="lazy">
+                  <div>
+                    <div class="testimonial-rating">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>“We left understanding exactly what was happening, what to watch for, and how to help our cat recover well at home.”</p>
+                    <div class="testimonial-meta mt-4">
+                      <strong>Yousef & Luna</strong>
+                      <span>Trusted diagnostic care</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="testimonial-card">
+                  <img src="assets/images/testimonials/testimonial-3.jpg" alt="Client portrait for Petly review" loading="lazy">
+                  <div>
+                    <div class="testimonial-rating">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>“Beautifully run, deeply kind, and clinically sharp. Petly never feels rushed, and that changes the whole experience.”</p>
+                    <div class="testimonial-meta mt-4">
+                      <strong>Leen & Coco</strong>
+                      <span>Long-term wellness client</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-controls">
+            <div class="swiper-nav">
+              <button class="swiper-button-petly swiper-prev" type="button" aria-label="Previous testimonial"><i class="bi bi-arrow-left"></i></button>
+              <button class="swiper-button-petly swiper-next" type="button" aria-label="Next testimonial"><i class="bi bi-arrow-right"></i></button>
+            </div>
+            <div class="swiper-pagination-petly"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding-sm">
+      <div class="petly-container">
+        <div class="counter-band">
+          <article class="card-petly counter-card" data-reveal="scale">
+            <strong data-count="12" data-suffix="+">0</strong>
+            <p>years serving pets and the people who love them</p>
+          </article>
+          <article class="card-petly counter-card" data-reveal="scale">
+            <strong data-count="9500" data-suffix="+">0</strong>
+            <p>pets treated with careful follow-up and compassion</p>
+          </article>
+          <article class="card-petly counter-card" data-reveal="scale">
+            <strong data-count="7" data-suffix="+">0</strong>
+            <p>care specialties supporting everyday clinic needs</p>
+          </article>
+          <article class="card-petly counter-card" data-reveal="scale">
+            <strong data-count="98" data-suffix="%">0</strong>
+            <p>of families say they feel better informed after a visit</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="petly-container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 mb-5">
+          <div class="section-heading mb-0" data-reveal="left">
+            <p class="eyebrow">Latest from the Blog</p>
+            <h2>Useful notes for calmer visits and healthier days at home.</h2>
+          </div>
+          <a class="btn-link-petly" href="blog.html" data-reveal="right">Visit the journal <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+        </div>
+        <div class="article-grid">
+          <article class="card-petly article-card" data-reveal="left">
+            <div class="article-media"><img src="assets/images/blog/blog-1.jpg" alt="Calm first clinic visit article image" loading="lazy"></div>
+            <div class="article-body">
+              <span class="tag-petly">Wellness</span>
+              <div class="meta-row mt-3"><span><i class="bi bi-calendar3"></i> April 18, 2026</span><span><i class="bi bi-clock"></i> 4 min read</span></div>
+              <h4 class="mt-3">Building a calmer first clinic visit for nervous pets</h4>
+              <p class="mt-3">Simple routines and environmental cues that help animals feel safer before they even arrive.</p>
+              <a class="btn-link-petly mt-3" href="blog-post.html">Read article <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+            </div>
+          </article>
+          <article class="card-petly article-card" data-reveal="scale">
+            <div class="article-media"><img src="assets/images/blog/blog-4.jpg" alt="Article about coat and skin health in pets" loading="lazy"></div>
+            <div class="article-body">
+              <span class="tag-petly">Skin & Coat</span>
+              <div class="meta-row mt-3"><span><i class="bi bi-calendar3"></i> April 11, 2026</span><span><i class="bi bi-clock"></i> 6 min read</span></div>
+              <h4 class="mt-3">What your pet’s coat can quietly tell you about overall health</h4>
+              <p class="mt-3">Dryness, dullness, shedding patterns, and itching often tell a bigger story than families expect.</p>
+              <a class="btn-link-petly mt-3" href="blog-post.html">Read article <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+            </div>
+          </article>
+          <article class="card-petly article-card" data-reveal="right">
+            <div class="article-media"><img src="assets/images/blog/blog-10.jpg" alt="Home care checklist blog article image" loading="lazy"></div>
+            <div class="article-body">
+              <span class="tag-petly">Guides</span>
+              <div class="meta-row mt-3"><span><i class="bi bi-calendar3"></i> April 2, 2026</span><span><i class="bi bi-clock"></i> 5 min read</span></div>
+              <h4 class="mt-3">A practical home checklist for keeping pets comfortable</h4>
+              <p class="mt-3">A clear routine for hydration, appetite, rest, coat checks, and the small changes worth noticing early.</p>
+              <a class="btn-link-petly mt-3" href="blog-post.html">Read article <i class="bi bi-arrow-right" data-dir-icon="arrow"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding-sm">
+      <div class="petly-container">
+        <div class="cta-band" data-reveal="scale">
+          <div class="cta-content">
+            <p class="eyebrow">Ready when you are</p>
+            <h2>Talk to Petly about the care your pet needs next.</h2>
+            <p class="lead-copy mt-4">Whether you need a calm first visit, clearer next steps, or long-term wellness support, our team will help you find the right path.</p>
+            <a class="btn-primary-petly mt-4" href="contact.html">Contact the Clinic</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
