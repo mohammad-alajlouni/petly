@@ -489,6 +489,9 @@
         image.style.display = 'none';
       };
       image.addEventListener('error', showFallback, { once: true });
+      const probe = new Image();
+      probe.addEventListener('error', showFallback, { once: true });
+      probe.src = image.currentSrc || image.src;
       if (image.complete && image.naturalWidth === 0) showFallback();
     });
   }
