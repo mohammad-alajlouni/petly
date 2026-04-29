@@ -30,6 +30,7 @@
       nav: [
         ['home', 'Home', 'index.html'],
         ['about', 'About', 'about.html'],
+        ['shelter', 'Shelter', 'shelter.html'],
         ['services', 'Services', 'services.html'],
         ['team', 'Team', 'team.html'],
         ['blog', 'Blog', 'blog.html'],
@@ -42,6 +43,7 @@
       footerBlurb: 'Petly brings warm communication, careful medicine, and a calmer experience to every visit.',
       quickLinks: [
         ['About', 'about.html'],
+        ['Shelter', 'shelter.html'],
         ['Services', 'services.html'],
         ['Team', 'team.html'],
         ['Blog', 'blog.html']
@@ -68,6 +70,7 @@
       nav: [
         ['home', 'الرئيسية', 'index.html'],
         ['about', 'عن العيادة', 'about.html'],
+        ['shelter', 'الملجأ', 'shelter.html'],
         ['services', 'الخدمات', 'services.html'],
         ['team', 'الفريق', 'team.html'],
         ['blog', 'المدونة', 'blog.html'],
@@ -80,6 +83,7 @@
       footerBlurb: 'تجمع بيتلي بين التواصل الدافئ والطب الدقيق وتجربة أهدأ للحيوانات الأليفة في كل زيارة.',
       quickLinks: [
         ['عن العيادة', 'about.html'],
+        ['الملجأ', 'shelter.html'],
         ['الخدمات', 'services.html'],
         ['الفريق', 'team.html'],
         ['المدونة', 'blog.html']
@@ -720,7 +724,21 @@
 
     const navLinks = shell.nav.map(([key, label, href]) => {
       const finalHref = lang === 'ar' ? href : href;
-      return `<a href="${finalHref}" class="${activePage === key ? 'active' : ''}">${label}</a>`;
+      const specialClass = key === 'shelter' ? 'nav-special-link' : '';
+      const activeClass = activePage === key ? 'active' : '';
+      const classes = [activeClass, specialClass].filter(Boolean).join(' ');
+      const labelMarkup = key === 'shelter'
+        ? `<span class="nav-heart" aria-hidden="true"><i class="bi bi-heart-fill"></i></span><span>${label}</span>`
+        : label;
+      return `<a href="${finalHref}" class="${classes}">${labelMarkup}</a>`;
+    }).join('');
+
+    const footerQuickLinks = shell.quickLinks.map(([label, href]) => {
+      const specialClass = href === 'shelter.html' ? 'nav-special-link' : '';
+      const labelMarkup = href === 'shelter.html'
+        ? `<span class="nav-heart" aria-hidden="true"><i class="bi bi-heart-fill"></i></span><span>${label}</span>`
+        : label;
+      return `<a href="${href}" class="${specialClass}">${labelMarkup}</a>`;
     }).join('');
 
     headerTarget.innerHTML = `
@@ -777,7 +795,7 @@
             <div>
               <h2 class="footer-title">${lang === 'ar' ? 'روابط سريعة' : 'Quick Links'}</h2>
               <div class="footer-links">
-                ${shell.quickLinks.map(([label, href]) => `<a href="${href}">${label}</a>`).join('')}
+                ${footerQuickLinks}
               </div>
             </div>
             <div>

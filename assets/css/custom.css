@@ -431,6 +431,9 @@ body[data-lang="ar"] .filter-chip:hover i {
 .desktop-nav a,
 .mobile-nav a {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.72rem 0.95rem;
   border-radius: 999px;
   color: var(--color-deep);
@@ -445,6 +448,32 @@ body[data-lang="ar"] .filter-chip:hover i {
 .mobile-nav a:focus {
   color: var(--color-secondary);
   background: rgba(40, 188, 168, 0.1);
+}
+
+.nav-special-link .nav-heart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--shelter-orange, #F58634);
+  font-size: 0.78rem;
+  transition: transform var(--transition-base), color var(--transition-base);
+}
+
+.desktop-nav a.nav-special-link:hover,
+.desktop-nav a.nav-special-link:focus,
+.desktop-nav a.nav-special-link.active,
+.mobile-nav a.nav-special-link:hover,
+.mobile-nav a.nav-special-link:focus,
+.mobile-nav a.nav-special-link.active {
+  color: var(--shelter-deep, #C45A1E);
+  background: rgba(245, 134, 52, 0.12);
+}
+
+.desktop-nav a.nav-special-link:hover .nav-heart,
+.desktop-nav a.nav-special-link:focus .nav-heart,
+.mobile-nav a.nav-special-link:hover .nav-heart,
+.mobile-nav a.nav-special-link:focus .nav-heart {
+  transform: scale(1.08);
 }
 
 .lang-switcher {
@@ -569,6 +598,9 @@ body[data-lang="ar"] .filter-chip:hover i {
 .footer-links a,
 .footer-contact a,
 .footer-contact span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: rgba(255, 255, 255, 0.82);
   transition: color var(--transition-base), transform var(--transition-base);
 }
