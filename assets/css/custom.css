@@ -2938,6 +2938,12 @@ body[data-lang="ar"] .field-petly label {
   border-color: rgba(245, 134, 52, 0.22);
 }
 
+.help-grid-two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(920px, 100%);
+  margin-inline: auto;
+}
+
 .shelter-connection-card,
 .shelter-follow {
   padding: clamp(1.4rem, 2.8vw, 2rem);
