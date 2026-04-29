@@ -2575,8 +2575,7 @@ body[data-lang="ar"] .field-petly label {
   z-index: -3;
 }
 
-.shelter-hero-grid,
-.shelter-connection-shell {
+.shelter-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 0.96fr);
   gap: clamp(1.5rem, 3vw, 3rem);
@@ -2586,7 +2585,7 @@ body[data-lang="ar"] .field-petly label {
 .shelter-hero-copy,
 .shelter-art-shell,
 .shelter-follow,
-.shelter-connection-card {
+.shelter-sponsorship-card {
   position: relative;
   z-index: 1;
 }
@@ -2820,13 +2819,13 @@ body[data-lang="ar"] .field-petly label {
 .rescue-card h3,
 .help-card h3,
 .shelter-follow-copy strong,
-.shelter-connection-card h3 {
+.shelter-sponsorship-card h2 {
   font-size: clamp(1.4rem, 2vw, 1.85rem);
 }
 
 .shelter-card p,
 .help-card p,
-.shelter-connection-card p {
+.shelter-sponsorship-card p {
   margin-top: 0.8rem;
 }
 
@@ -2944,13 +2943,58 @@ body[data-lang="ar"] .field-petly label {
   margin-inline: auto;
 }
 
-.shelter-connection-card,
 .shelter-follow {
   padding: clamp(1.4rem, 2.8vw, 2rem);
   border-radius: var(--radius-xl);
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid rgba(245, 134, 52, 0.1);
   box-shadow: var(--shadow-soft);
+}
+
+.shelter-sponsorship-card {
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at top, rgba(255, 210, 168, 0.36), transparent 46%),
+    var(--shelter-mist);
+  border: 1px solid rgba(245, 134, 52, 0.12);
+  box-shadow: 0 28px 70px rgba(196, 90, 30, 0.1);
+}
+
+.shelter-partnership-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.15rem;
+}
+
+.shelter-partnership-mark img {
+  width: clamp(4.1rem, 7vw, 5.5rem);
+  height: auto;
+}
+
+.shelter-partnership-plus {
+  color: var(--shelter-deep);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.shelter-sponsorship-copy {
+  max-width: 36rem;
+  margin-inline: auto;
+  font-size: clamp(1.02rem, 1.7vw, 1.12rem);
+}
+
+.shelter-sponsorship-note {
+  max-width: 28rem;
+  margin-inline: auto;
+  color: var(--shelter-deep);
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .shelter-clinic-link,
@@ -3017,7 +3061,7 @@ body[data-lang="ar"] .field-petly label {
 }
 
 body[data-lang="ar"] .shelter-hero-copy,
-body[data-lang="ar"] .shelter-connection-card,
+body[data-lang="ar"] .shelter-sponsorship-card,
 body[data-lang="ar"] .help-card,
 body[data-lang="ar"] .rescue-card-body {
   text-align: right;
@@ -3179,7 +3223,6 @@ body[data-lang="ar"] .faq-trigger {
   }
 
   .shelter-hero-grid,
-  .shelter-connection-shell,
   .shelter-grid,
   .help-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -3386,7 +3429,7 @@ body[data-lang="ar"] .faq-trigger {
   .shelter-card,
   .help-card,
   .rescue-card-body,
-  .shelter-connection-card {
+  .shelter-sponsorship-card {
     text-align: center;
   }
 
@@ -3395,7 +3438,7 @@ body[data-lang="ar"] .faq-trigger {
   body[data-lang="ar"] .shelter-card,
   body[data-lang="ar"] .help-card,
   body[data-lang="ar"] .rescue-card-body,
-  body[data-lang="ar"] .shelter-connection-card {
+  body[data-lang="ar"] .shelter-sponsorship-card {
     text-align: center;
   }
 
