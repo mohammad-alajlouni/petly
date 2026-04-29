@@ -1,0 +1,35 @@
+[
+  {
+    "id": "rescue-001",
+    "name_en": "Nour",
+    "name_ar": "نور",
+    "story_en": "TODO: Add Nour's full rescue story. This placeholder represents a dog who arrived needing patient mobility support and daily medical follow-up, and is now beginning to trust routine care at Al-Eman Shelter.",
+    "story_ar": "TODO: أضيفوا القصة الكاملة لنور. هذا النص المؤقت يمثل كلباً وصل إلى الملجأ وهو بحاجة إلى دعم حركي ومتابعة طبية يومية، ويبدأ الآن باستعادة ثقته من خلال الرعاية الهادئة في ملجأ الإيمان.",
+    "condition_en": "Mobility support",
+    "condition_ar": "دعم حركي",
+    "photo": "assets/images/shelter/rescue-001.jpg",
+    "status": "in-care"
+  },
+  {
+    "id": "rescue-002",
+    "name_en": "Amber",
+    "name_ar": "عنبر",
+    "story_en": "TODO: Add Amber's full rescue story. This placeholder represents a senior dog who was abandoned late in life and is now receiving comfort-focused care, soft bedding, and steady companionship.",
+    "story_ar": "TODO: أضيفوا القصة الكاملة لعنبر. هذا النص المؤقت يمثل كلبة كبيرة في السن تُركت في مرحلة متأخرة من عمرها، وتتلقى الآن رعاية مريحة ومكاناً دافئاً ورفقة ثابتة.",
+    "condition_en": "Senior sanctuary",
+    "condition_ar": "ملاذ لكبار السن",
+    "photo": "assets/images/shelter/rescue-002.jpg",
+    "status": "sanctuary"
+  },
+  {
+    "id": "rescue-003",
+    "name_en": "Sami",
+    "name_ar": "سامي",
+    "story_en": "TODO: Add Sami's full rescue story. This placeholder represents a resilient dog recovering from injury and emotional trauma, now building strength toward a future adoptive home.",
+    "story_ar": "TODO: أضيفوا القصة الكاملة لسامي. هذا النص المؤقت يمثل كلباً يتعافى من إصابة وتجربة قاسية، ويستعيد قوته تدريجياً تمهيداً لبيت تبنٍ مناسب.",
+    "condition_en": "Rehabilitation",
+    "condition_ar": "إعادة تأهيل",
+    "photo": "assets/images/shelter/rescue-003.jpg",
+    "status": "adopted"
+  }
+]
