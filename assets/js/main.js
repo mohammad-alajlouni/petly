@@ -179,6 +179,10 @@
     return `${pathPrefix}assets/data/reviews.json`;
   }
 
+  function getShelterDataUrl() {
+    return `${pathPrefix}assets/data/shelter.json`;
+  }
+
   function getTeamPageHref() {
     return 'team.html';
   }
@@ -407,6 +411,113 @@
         </div>
       </section>
     `;
+  }
+
+  function getShelterStatusMeta(status) {
+    const statusMap = {
+      'in-care': {
+        label: lang === 'ar' ? 'تحت الرعاية' : 'In Care',
+        className: 'is-in-care'
+      },
+      adopted: {
+        label: lang === 'ar' ? 'تم تبنيه' : 'Adopted',
+        className: 'is-adopted'
+      },
+      sanctuary: {
+        label: lang === 'ar' ? 'إقامة دائمة' : 'Sanctuary',
+        className: 'is-sanctuary'
+      }
+    };
+    return statusMap[status] || statusMap['in-care'];
+  }
+
+  function buildRescueCard(entry) {
+    const id = entry.id || `rescue-${Math.random().toString(36).slice(2, 8)}`;
+    const name = getLocalizedValue(entry, 'name') || (lang === 'ar' ? 'أحد كلاب الملجأ' : 'Shelter Rescue');
+    const story = getLocalizedValue(entry, 'story') || '';
+    const condition = getLocalizedValue(entry, 'condition') || (lang === 'ar' ? 'احتياجات خاصة' : 'Special needs');
+    const status = getShelterStatusMeta(entry.status);
+    const moreLabel = lang === 'ar' ? 'اقرأ القصة كاملة' : 'Read full story';
+    const lessLabel = lang === 'ar' ? 'إخفاء القصة' : 'Show less';
+    const photoAlt = lang === 'ar'
+      ? `${name}، أحد كلاب ملجأ الإيمان`
+      : `${name}, a rescue dog at Al-Eman Shelter`;
+    return `
+      <article class="card-petly rescue-card" id="${escapeHtml(id)}" data-reveal="scale">
+        <div class="rescue-media" data-rescue-media-root>
+          <img src="${resolveAssetPath(entry.photo)}" alt="${escapeHtml(photoAlt)}" loading="lazy">
+          <div class="rescue-media-placeholder" aria-hidden="true">
+            <span>${escapeHtml(name)}</span>
+          </div>
+        </div>
+        <div class="rescue-card-body">
+          <div class="rescue-card-topline">
+            <span class="rescue-status ${status.className}">${escapeHtml(status.label)}</span>
+            <span class="rescue-condition">${escapeHtml(condition)}</span>
+          </div>
+          <h3>${escapeHtml(name)}</h3>
+          <p class="rescue-story is-collapsed" data-rescue-story id="${escapeHtml(`${id}-story`)}">${escapeHtml(story)}</p>
+          <button
+            class="btn-link-petly rescue-story-link"
+            type="button"
+            data-story-toggle
+            data-more-label="${escapeHtml(moreLabel)}"
+            data-less-label="${escapeHtml(lessLabel)}"
+            aria-expanded="false"
+            aria-controls="${escapeHtml(`${id}-story`)}"
+          >
+            ${escapeHtml(moreLabel)} <i class="bi bi-arrow-${lang === 'ar' ? 'left' : 'right'}" data-dir-icon="arrow"></i>
+          </button>
+        </div>
+      </article>
+    `;
+  }
+
+  function hydrateRescueMediaFallbacks(scope = document) {
+    scope.querySelectorAll('[data-rescue-media-root]').forEach((root) => {
+      const image = root.querySelector('img');
+      if (!image) {
+        root.classList.add('is-fallback');
+        return;
+      }
+      const showFallback = () => {
+        root.classList.add('is-fallback');
+        image.style.display = 'none';
+      };
+      image.addEventListener('error', showFallback, { once: true });
+      if (image.complete && image.naturalWidth === 0) showFallback();
+    });
+  }
+
+  function initShelterStoryToggles(scope = document) {
+    scope.querySelectorAll('[data-story-toggle]').forEach((button) => {
+      if (button.dataset.toggleReady === 'true') return;
+      button.dataset.toggleReady = 'true';
+      button.addEventListener('click', () => {
+        const card = button.closest('.rescue-card');
+        const story = card?.querySelector('[data-rescue-story]');
+        if (!story) return;
+        const isCollapsed = story.classList.toggle('is-collapsed');
+        button.setAttribute('aria-expanded', String(!isCollapsed));
+        button.innerHTML = `${isCollapsed ? button.dataset.moreLabel : button.dataset.lessLabel} <i class="bi bi-arrow-${lang === 'ar' ? 'left' : 'right'}" data-dir-icon="arrow"></i>`;
+        initDirectionAwareIcons();
+      });
+    });
+  }
+
+  function initShelterRescues() {
+    const grid = document.querySelector('[data-shelter-rescues]');
+    if (!grid) return;
+    fetchJson(getShelterDataUrl())
+      .then((rescues) => {
+        grid.innerHTML = rescues.map(buildRescueCard).join('');
+        hydrateRescueMediaFallbacks(grid);
+        initShelterStoryToggles(grid);
+        initRevealAnimations();
+      })
+      .catch(() => {
+        grid.innerHTML = `<p class="team-loading card-petly">${escapeHtml(lang === 'ar' ? 'تعذر تحميل قصص الإنقاذ حالياً.' : 'We could not load the rescue stories right now.')}</p>`;
+      });
   }
 
   function buildBioSection(member) {
@@ -1170,6 +1281,7 @@
   initTeamGrid();
   initDoctorDetail();
   initGoogleReviews();
+  initShelterRescues();
   initAccessibleCardLinks();
   initHeroAnimations();
   initRevealAnimations();
